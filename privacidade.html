@@ -2,9 +2,12 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
+<meta name="google-site-verification" content="KrFs0eqabBYTJktM5FBpyhpd_qzh3mR7Fe65DcXL_Aw" />
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Política de Privacidade · mono.</title>
-<meta name="description" content="mono. é um diário para praticar idiomas, com correção por inteligência artificial que roda no próprio celular.">
+<title>Política de Privacidade · Privacy Policy · mono.</title>
+<meta name="application-name" content="mono.">
+<meta property="og:site_name" content="mono.">
+<meta name="description" content="mono. is a language-learning journal app for Android with on-device AI correction. mono. é um diário para praticar idiomas com correção por IA no próprio celular.">
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -13,88 +16,135 @@
   <a class="logo" href="index.html" aria-label="mono. início">m.</a>
   <nav>
     <a href="index.html">Início</a>
-    <a href="privacidade.html" aria-current="page">Privacidade</a>
-    <a href="termos.html">Termos</a>
+    <a href="privacidade.html" aria-current="page">Privacidade / Privacy</a>
+    <a href="termos.html">Termos / Terms</a>
   </nav>
 </header>
 <main>
-<h1>Política de Privacidade</h1>
-<p class="meta">Aplicativo mono. (diário de idiomas para Android) · Vigente desde 24 de novembro de 2026</p>
+<h1>Política de Privacidade<br><em>do aplicativo mono.</em></h1>
+<p class="meta">Aplicativo mono. (diário de idiomas para Android) · Desenvolvedor: John Ramalho · Contato: johnvlzlg@gmail.com · Vigente desde 24 de novembro de 2026 · <a href="#en">English version below</a></p>
 
-<p class="lead">Resumo: seus textos ficam no seu aparelho. A inteligência artificial roda offline. O login com Google é opcional e serve só para guardar uma cópia criptografada no seu próprio Google Drive.</p>
+<p class="lead">Esta política explica quais dados o mono. usa, onde eles ficam, para que servem e como você controla e apaga esses dados, incluindo os dados que o app acessa na sua conta Google.</p>
 
-<h2>1. Quem somos</h2>
-<p>O mono. é um aplicativo pessoal, desenvolvido e mantido por um desenvolvedor independente. Contato: <a href="mailto:johnvlzlg@gmail.com">johnvlzlg@gmail.com</a>.</p>
-
-<h2>2. Dados que ficam no seu aparelho</h2>
-<p>O app guarda no armazenamento interno do seu celular ou tablet:</p>
+<h2>1. Resumo</h2>
 <ul>
-  <li>os textos do diário e os rascunhos;</li>
-  <li>as análises feitas pela inteligência artificial (correções, erros, dicas e relatórios semanais);</li>
-  <li>o progresso nas lições e no vocabulário, palavras salvas e revisões;</li>
-  <li>suas preferências: nome (opcional), idioma de escrita, horário do lembrete e tipo de proteção.</li>
+  <li>Seus textos e o seu progresso ficam <b>no seu aparelho</b>. O app não tem servidor e o desenvolvedor não recebe seus dados.</li>
+  <li>A inteligência artificial (Gemma) roda <b>offline no aparelho</b>.</li>
+  <li>O login com Google é <b>opcional</b> e usa só o escopo <code>drive.appdata</code>, para guardar uma cópia <b>criptografada</b> na pasta oculta do app no <b>seu</b> Google Drive.</li>
+  <li>Sem anúncios, sem ferramentas de análise de uso, sem rastreamento, sem venda ou compartilhamento de dados.</li>
 </ul>
-<p>Esses dados <b>não são enviados ao desenvolvedor</b> nem a nenhum servidor do app. Não existe servidor do app.</p>
+
+<h2>2. Dados que o app guarda no seu aparelho</h2>
+<table class="tb">
+<tr><th>Dado</th><th>Para que serve</th></tr>
+<tr><td>Textos do diário e rascunhos que você escreve ou dita</td><td>Mostrar o diário e corrigi-lo</td></tr>
+<tr><td>Análises da IA: correções, erros, dicas, notas, relatórios semanais</td><td>Mostrar o feedback e a evolução</td></tr>
+<tr><td>Progresso das lições e do vocabulário, palavras salvas, revisões</td><td>Continuar o estudo e revisar no momento certo</td></tr>
+<tr><td>Preferências: nome (opcional), idioma de escrita, horário do lembrete, tipo de proteção</td><td>Personalizar o app</td></tr>
+</table>
+<p>Esses dados ficam no armazenamento interno do app. Eles <b>não são enviados ao desenvolvedor</b> nem a servidores do app (não existem servidores do app). Com a <b>senha própria</b>, os textos são criptografados no aparelho com AES-256-GCM; a chave vem da sua senha, que não é guardada.</p>
 
 <h2>3. Inteligência artificial no aparelho</h2>
-<p>A correção é feita pelo modelo Gemma, executado localmente no aparelho. O arquivo do modelo é baixado uma vez do Hugging Face (huggingface.co) quando você pede. Esse download não envia nenhum texto seu. Depois disso, a análise funciona sem internet.</p>
+<p>A correção é feita pelo modelo Gemma, executado localmente. O arquivo do modelo é baixado uma única vez de huggingface.co quando você pede; esse download <b>não envia nenhum texto seu</b>. A IA do app trabalha só com texto: não gera nem edita imagens, áudio ou vídeo.</p>
 
-<h2>4. Proteção</h2>
-<p>Você escolhe a proteção do diário: senha do aparelho, senha própria ou nenhuma. Com a senha própria, os textos são criptografados no aparelho com AES-256-GCM, e a chave vem da sua senha, que não é guardada. O app bloqueia sozinho depois de um tempo em segundo plano.</p>
+<h2>4. Dados do Google: acesso, uso, armazenamento, compartilhamento e exclusão</h2>
+<p>Esta seção vale somente se você tocar em <b>Ajustes › Sincronizar com o Google</b> e autorizar o acesso.</p>
 
-<h2>5. Login com Google e Google Drive (opcional)</h2>
-<p>Se você escolher <b>Sincronizar com o Google</b>, o app pede permissão para um único escopo: <code>https://www.googleapis.com/auth/drive.appdata</code>. Com ele, o app pode ler e gravar <b>somente</b> a pasta oculta do próprio app no seu Google Drive. Ele não vê, não lê e não altera nenhum outro arquivo do seu Drive.</p>
+<h3>4.1 Quais dados do Google o app acessa</h3>
 <ul>
-  <li><b>O que é guardado:</b> um arquivo com os dados do item 2 (exceto rascunhos e preferências do aparelho), <b>criptografado no aparelho antes do envio</b> com uma senha de sincronização que só você conhece. Nem o Google nem o desenvolvedor conseguem ler o conteúdo.</li>
-  <li><b>Para que:</b> exclusivamente para manter uma cópia de segurança e sincronizar os seus aparelhos.</li>
-  <li><b>O e-mail da conta Google</b> é mostrado só dentro do app, para você saber qual conta está conectada.</li>
-  <li><b>Não compartilhamos</b> dados obtidos das APIs do Google com ninguém, não usamos esses dados para publicidade, não os vendemos e não os usamos para treinar modelos de inteligência artificial.</li>
+  <li><b>Escopo solicitado:</b> apenas <code>https://www.googleapis.com/auth/drive.appdata</code> (“Ver e gerenciar os dados de configuração do próprio app no seu Google Drive”).</li>
+  <li>Com esse escopo, o app só consegue criar, ler, atualizar e apagar <b>os arquivos que ele mesmo criou</b> na pasta oculta do app (<i>appDataFolder</i>). Ele <b>não</b> vê, não lê, não lista e não altera nenhum outro arquivo, pasta, e-mail, contato, foto ou dado da sua conta Google.</li>
+  <li>O app lê também o <b>endereço de e-mail</b> da conta conectada (pela própria API do Drive), apenas para mostrar dentro do app qual conta está em uso.</li>
 </ul>
+
+<h3>4.2 Como o app usa esses dados</h3>
+<ul>
+  <li>Grava um único arquivo (<code>mono-sync.json</code>) com uma cópia de segurança dos dados do item 2 (exceto rascunhos e preferências do aparelho).</li>
+  <li>Lê esse arquivo em outro aparelho seu, conectado à mesma conta, para juntar os dados e manter os aparelhos iguais.</li>
+  <li>Nenhum outro uso. Os dados do Google <b>não</b> são usados para publicidade, perfis, análise de comportamento, nem para treinar ou melhorar modelos de inteligência artificial.</li>
+</ul>
+
+<h3>4.3 Como os dados são armazenados e protegidos</h3>
+<ul>
+  <li>O arquivo é <b>criptografado no aparelho antes do envio</b> (AES-256-GCM), com uma chave derivada de uma <b>senha de sincronização</b> que só você conhece (PBKDF2-SHA256). Nem o Google nem o desenvolvedor conseguem ler o conteúdo.</li>
+  <li>O arquivo fica armazenado <b>na sua própria conta Google Drive</b>. O app não copia esses dados para nenhum outro lugar.</li>
+  <li>A comunicação com o Google é feita por HTTPS. O token de acesso é gerenciado pelo Google Play services no aparelho.</li>
+</ul>
+
+<h3>4.4 Compartilhamento</h3>
+<p>O app <b>não compartilha, não transfere e não vende</b> dados de usuário do Google para ninguém: nem para o desenvolvedor, nem para terceiros, anunciantes ou corretores de dados. Não existe servidor do app que receba esses dados.</p>
+
+<h3>4.5 Retenção e exclusão</h3>
+<ul>
+  <li>O arquivo fica no seu Drive enquanto você usar a sincronização.</li>
+  <li>Para apagá-lo: <b>Ajustes › Sincronizar com o Google › Apagar os dados da nuvem</b>.</li>
+  <li>Para desconectar o aparelho: <b>Ajustes › Sincronizar com o Google › Desconectar este aparelho</b>.</li>
+  <li>Para revogar o acesso do app à sua conta: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Você também pode apagar os dados ocultos do app em drive.google.com › Configurações › Gerenciar apps.</li>
+  <li>Pedidos de exclusão ou dúvidas: <a href="mailto:johnvlzlg@gmail.com">johnvlzlg@gmail.com</a>.</li>
+</ul>
+
+<h3>4.6 Uso Limitado</h3>
 <p>O uso e a transferência, para qualquer outro aplicativo, de informações recebidas das APIs do Google seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</p>
 
-<h2>6. Recursos do sistema Android</h2>
+<h2>5. Recursos do sistema Android</h2>
 <ul>
-  <li><b>Ditado (microfone):</b> quando você toca no microfone, o áudio é transcrito pelo serviço de reconhecimento de voz do próprio Android (normalmente o do Google), segundo as regras desse serviço. O app recebe só o texto.</li>
+  <li><b>Microfone (ditado e prática de fala):</b> o áudio é transcrito pelo serviço de reconhecimento de voz do Android (normalmente o do Google), segundo as regras desse serviço. O app recebe só o texto e não grava áudio.</li>
   <li><b>Leitura em voz alta:</b> usa o mecanismo de conversão de texto em voz do aparelho.</li>
-  <li><b>Lembretes:</b> são notificações locais, agendadas no próprio aparelho.</li>
+  <li><b>Notificações:</b> lembretes locais, agendados no próprio aparelho.</li>
 </ul>
 
-<h2>7. Exportar e apagar seus dados</h2>
+<h2>6. Seus direitos (LGPD) e como apagar tudo</h2>
 <ul>
-  <li><b>Exportar:</b> em Ajustes você pode exportar tudo para um arquivo e importar em outro aparelho.</li>
-  <li><b>Apagar do aparelho:</b> desinstale o app ou limpe os dados dele nas configurações do Android. Com a senha própria, a opção “Esqueci a senha” apaga tudo.</li>
-  <li><b>Apagar da nuvem:</b> em Ajustes › Sincronizar com o Google › “Apagar os dados da nuvem”.</li>
-  <li><b>Revogar o acesso do app ao Google:</b> em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+  <li><b>Acesso e portabilidade:</b> Ajustes › Exportar dados.</li>
+  <li><b>Exclusão no aparelho:</b> desinstale o app ou limpe os dados dele nas configurações do Android; com a senha própria, “Esqueci a senha” apaga tudo.</li>
+  <li><b>Exclusão na nuvem:</b> veja o item 4.5.</li>
+  <li>Para qualquer pedido: <a href="mailto:johnvlzlg@gmail.com">johnvlzlg@gmail.com</a>.</li>
 </ul>
 
-<h2>8. O que não fazemos</h2>
-<p>Não há anúncios, ferramentas de análise de uso, rastreamento, venda ou compartilhamento de dados pessoais.</p>
+<h2>7. Crianças</h2>
+<p>O app não é direcionado a menores de 13 anos e não coleta dados de crianças de forma intencional.</p>
 
-<h2>9. Crianças</h2>
-<p>O app não é direcionado a crianças menores de 13 anos.</p>
-
-<h2>10. LGPD e seus direitos</h2>
-<p>Como os dados ficam no seu aparelho e na sua própria conta Google, você mesmo tem acesso, correção, portabilidade (exportação) e exclusão a qualquer momento, pelas opções acima. Para qualquer pedido ou dúvida, escreva para <a href="mailto:johnvlzlg@gmail.com">johnvlzlg@gmail.com</a>.</p>
-
-<h2>11. Mudanças nesta política</h2>
-<p>Se esta política mudar, a nova versão será publicada nesta página, com a data atualizada.</p>
+<h2>8. Mudanças</h2>
+<p>Se a forma de usar dados mudar, esta página será atualizada com nova data e o app avisará antes de usar qualquer dado novo.</p>
 
 <section class="en" id="en" lang="en">
-<h2>Privacy Policy (English)</h2>
-<p class="meta">Effective November 24, 2026</p>
-<p><b>Data on your device.</b> Journal entries, drafts, AI analyses, lesson and vocabulary progress, saved words and preferences are stored only on your device. They are not sent to the developer; the app has no server.</p>
-<p><b>On-device AI.</b> Corrections are made by the Gemma model running locally. The model file is downloaded once from Hugging Face; no text of yours is sent.</p>
-<p><b>Protection.</b> With your own password, entries are encrypted on the device (AES-256-GCM).</p>
-<p><b>Google sign-in (optional).</b> The app requests only the <code>drive.appdata</code> scope, which gives access solely to the app's hidden folder in your Google Drive. It stores one file with your journal data, <b>encrypted on the device before upload</b> with a sync password only you know, used only for backup and syncing your devices. The account e-mail is shown only inside the app. We do not share Google user data with anyone, do not use it for advertising, do not sell it and do not use it to train AI models. The app's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
-<p><b>Android services.</b> Dictation uses the Android speech recognition service; read-aloud uses the device text-to-speech engine; reminders are local notifications.</p>
-<p><b>Your choices.</b> Export or import your data in Settings; delete local data by uninstalling the app or clearing its data; delete the cloud copy in Settings › Sync with Google; revoke access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
-<p>No ads, analytics or tracking. Not directed to children under 13. Contact: <a href="mailto:johnvlzlg@gmail.com">johnvlzlg@gmail.com</a>.</p>
+<h2>Privacy Policy — mono. (English)</h2>
+<p class="meta">App: mono. (language-learning journal for Android) · Developer: John Ramalho · Contact: johnvlzlg@gmail.com · Effective November 24, 2026</p>
+
+<h3>1. Summary</h3>
+<p>Your journal and progress are stored on your device; the app has no server and the developer receives no data. The AI model (Gemma) runs offline on the device and works with text only. Google sign-in is optional and uses only the <code>drive.appdata</code> scope to keep an encrypted backup in the app's hidden folder in your own Google Drive. No ads, analytics, tracking, selling or sharing of data.</p>
+
+<h3>2. Data stored on your device</h3>
+<p>Journal entries and drafts; AI analyses (corrections, mistakes, tips, scores, weekly reports); lesson and vocabulary progress, saved words and reviews; preferences (optional name, writing language, reminder time, protection type). Used only to provide the app's features. Never sent to the developer. With your own password, entries are encrypted on the device with AES-256-GCM.</p>
+
+<h3>3. On-device AI</h3>
+<p>Corrections are produced by the Gemma model running locally. The model file is downloaded once from huggingface.co; no user text is sent. The AI does not generate or edit images, audio or video.</p>
+
+<h3>4. Google user data</h3>
+<p><b>Data accessed.</b> Only the <code>https://www.googleapis.com/auth/drive.appdata</code> scope. The app can create, read, update and delete only the files it created in its hidden application data folder in your Google Drive. It cannot see, read, list or change any other file, folder, e-mail, contact, photo or data in your Google account. It also reads the connected account's e-mail address (via the Drive API) only to display which account is connected.</p>
+<p><b>Data use.</b> The app writes one file (<code>mono-sync.json</code>) containing a backup of the data listed in section 2 (except drafts and device preferences) and reads it on your other devices signed in to the same account to keep them in sync. No other use. Google user data is not used for advertising, profiling, analytics, or to train or improve AI models.</p>
+<p><b>Storage and protection.</b> The file is encrypted on the device before upload (AES-256-GCM, key derived with PBKDF2-SHA256 from a sync password only you know), so neither Google nor the developer can read it. It is stored only in your own Google Drive. Communication uses HTTPS; access tokens are managed by Google Play services on the device.</p>
+<p><b>Sharing.</b> The app does not share, transfer or sell Google user data to anyone, including the developer, third parties, advertisers or data brokers. There is no app server.</p>
+<p><b>Retention and deletion.</b> The file stays in your Drive while you use sync. Delete it in Settings › Sync with Google › Delete cloud data; disconnect the device in Settings › Sync with Google › Disconnect this device; revoke access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> or remove the app's hidden data in drive.google.com › Settings › Manage apps. Requests: <a href="mailto:johnvlzlg@gmail.com">johnvlzlg@gmail.com</a>.</p>
+<p><b>Limited Use.</b> mono.'s use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+<h3>5. Android system features</h3>
+<p>Dictation and speaking practice use the Android speech recognition service (usually Google's), which returns text to the app; the app does not record audio. Read-aloud uses the device text-to-speech engine. Reminders are local notifications.</p>
+
+<h3>6. Your rights</h3>
+<p>Export your data in Settings; delete local data by uninstalling the app or clearing its data; delete cloud data as described above. Contact: <a href="mailto:johnvlzlg@gmail.com">johnvlzlg@gmail.com</a>.</p>
+
+<h3>7. Children</h3>
+<p>The app is not directed to children under 13 and does not knowingly collect their data.</p>
+
+<h3>8. Changes</h3>
+<p>If data practices change, this page will be updated with a new date and the app will ask for consent before using any new data.</p>
 </section>
 </main>
 <footer>
-  <span>mono. · diário de idiomas</span>
-  <a href="privacidade.html">Política de Privacidade</a>
-  <a href="termos.html">Termos de Uso</a>
+  <span>mono. · diário de idiomas · language journal</span>
+  <a href="privacidade.html">Política de Privacidade / Privacy Policy</a>
+  <a href="termos.html">Termos de Uso / Terms of Service</a>
   <a href="mailto:johnvlzlg@gmail.com">johnvlzlg@gmail.com</a>
 </footer>
 </div>

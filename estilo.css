@@ -31,3 +31,7 @@ ul{padding-left:1.2em}li{margin:4px 0}
 .en{border-top:1px dashed var(--line);margin-top:40px;padding-top:10px}
 footer{margin-top:48px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:14px;display:flex;gap:16px;flex-wrap:wrap}
 footer a{color:var(--muted)}
+h3{font-size:18px;margin:22px 0 4px}
+.tb{width:100%;border-collapse:collapse;margin:10px 0;font-size:15px;background:var(--sheet);border-radius:16px;overflow:hidden}
+.tb th,.tb td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.tb th{background:var(--blue-soft)}
